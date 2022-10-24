@@ -5,4 +5,4 @@ for el in line:
         line2 += el
     else:
         line2 += ' '
-print(max(map(int, line2.split()), key=lambda x: x % 2 == 0))
+print(max(filter(lambda x: x % 2 == 0, map(int, line2.split()))))
