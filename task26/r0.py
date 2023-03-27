@@ -1,4 +1,4 @@
-f = open('26.txt')
+f = open('test.txt')
 v, n = map(int, f.readline().split())
 data = sorted(map(int, f.readlines()))
 # print(data)
