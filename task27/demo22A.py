@@ -1,4 +1,4 @@
-f = open('test.txt')
+f = open('156/test.txt')
 n = int(f.readline())
 data = list(map(int, f.readlines()))
 # print(data)

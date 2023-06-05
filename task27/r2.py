@@ -1,4 +1,4 @@
-f = open('test.txt')
+f = open('156/test.txt')
 n = int(f.readline())
 p = 12
 k = [0] * p
